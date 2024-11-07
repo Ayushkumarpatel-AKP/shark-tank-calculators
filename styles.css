@@ -83,3 +83,21 @@ button:hover {
     width: 100%;
     margin-top: 20px;
 }
+.profile {
+    position: absolute; /* Positioning the profile in the top right corner */
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px; /* Adjust the size of the GitHub logo */
+    height: auto;
+    margin-right: 10px; /* Space between logo and name */
+}
+
+.profile span {
+    color: #178bff; /* Yellow color for the name */
+    font-weight: bold; /* Bold text for the name */
+}
